@@ -1,0 +1,68 @@
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 5px;
+    background-color: rgb(237, 247, 247);
+    padding: 5px;
+    width: 350px;
+    height: auto;
+    margin: auto;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+button{
+    margin-left: 5px;
+    padding: 10px 20px;
+    background-color: rgb(161, 212, 230);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 1s all ease;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: rgb(14, 145, 189);
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(51, 160, 211);
+    border-radius: 5px;
+}
+@media (max-width:900px){
+    .container{
+        max-width: 80%;
+    }
+
+}
